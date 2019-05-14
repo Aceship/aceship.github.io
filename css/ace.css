@@ -1,0 +1,57 @@
+/* css file for arknight github calculator */
+
+body{
+    background-color: rgb(0, 0, 0)
+}
+
+.ace-c{
+    text-align: center;
+}
+.ace-tab{
+    padding-left:50px;
+    padding-right:50px
+}
+.ak-bg{
+    background-color: rgb(54, 54, 54)
+}
+
+.aga-bg{
+    background-color: rgb(255, 255, 255)
+}
+.ak-menu{
+    background-color: rgb(0, 0, 0);
+}
+.aga-menu{
+    background-color: rgb(241, 56, 117);
+}
+.fill { 
+    min-height: 100%;
+    height: 100vh;
+}
+a:link {
+    color: white;
+    outline : none;
+  }
+  
+  /* visited link */
+  a:visited,a:hover ,a:active {
+    /* background-color: #f44336; */
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    outline : none;
+  }
+  img {  
+    object-fit: scale-down;
+    margin:auto;
+    margin-top:auto;
+    height:200px;
+    margin-left:-5px
+}
+
+@media screen and (max-width:768px) {
+    .ace-tab{
+        padding-left:0;
+        padding-right:0;
+    }
+}
